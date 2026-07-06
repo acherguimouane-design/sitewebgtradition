@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import logoAsset from "@/assets/logo.png";
-import storefrontAsset from "@/assets/storefront.jpg";
+import storefrontAsset from "@/assets/storefront.jpg.png";
 import heroImg from "@/assets/hero.jpg";
 import catGlaces from "@/assets/cat-glaces.jpg";
 import catCrepes from "@/assets/cat-crepes.jpg";
