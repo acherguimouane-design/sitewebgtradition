@@ -166,7 +166,7 @@ function useReveal<T extends HTMLElement>() {
 function Logo({ className = "" }: { className?: string }) {
   return (
     <img
-      src={logoAsset.url}
+      src={logoAsset}
       alt="Goût & Traditions"
       className={className}
       width={660}
@@ -396,7 +396,7 @@ function Histoire() {
         <Reveal className="relative">
           <div className="absolute -inset-4 border border-gold/25 translate-x-5 translate-y-5" />
           <img
-            src={storefrontAsset.url}
+            src={storefrontAsset}
             alt="Façade de Goût & Traditions à Safi"
             loading="lazy"
             className="relative aspect-[4/5] w-full object-cover shadow-[0_30px_80px_-20px_rgba(0,0,0,0.6)]"
